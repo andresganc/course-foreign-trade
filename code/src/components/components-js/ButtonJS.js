@@ -1,6 +1,6 @@
 
-import React, { Fragment } from 'react'
 import styled from 'styled-components'
+
 
 const Button = styled.button `
     background-color: lightgray;
@@ -12,12 +12,4 @@ const Button = styled.button `
     color: palevioletred;
 `
 
-function NCButtonBaseReact() {
-    return (
-        <Fragment>
-            <Button> Hola </Button>
-        </Fragment>
-    )
-}
-
-export default NCButtonBaseReact
+export default Button;
