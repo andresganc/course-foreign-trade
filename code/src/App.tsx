@@ -6,6 +6,10 @@ import React, { Fragment } from 'react';
 import StylesGlobales from './global-styles/StylesGlobalesTS'
 import Container from './components/div-container-center/DivContainerCenterTS'
 import ButtonPropsTS from './props-to-components/ButtonPropsTS'
+import Nesting from './nesting-anidaciones/NestingTS01'
+import Mixing from './mixing-mezclar-styles/MixingTS01'
+import ExtendStyles from './extend-styles/ExtendStylesTS'
+import Themes from './themes/ThemesJS'
 
 // Interface de props - Opcional 
 export interface IProps {
@@ -15,11 +19,7 @@ export interface IProps {
 function App() {
   return (
     <Fragment>
-      <StylesGlobales />
-      <Container>
-      <ButtonPropsTS> Cancelar </ButtonPropsTS>
-      <ButtonPropsTS> Enviar </ButtonPropsTS>
-    </Container>
+      <Themes />
     </Fragment>
     
   );
