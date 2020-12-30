@@ -22,7 +22,7 @@ Curso NC de Styled Components
 
         // Types para typescript
 
-        $ npm i -D @types/styled-components
+        $ npm i @types/styled-components
         
         or
         
