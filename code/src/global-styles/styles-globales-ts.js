@@ -1,11 +1,12 @@
 
 import { createGlobalStyle } from 'styled-components'
 
-const StylesGlobalesTS = createGlobalStyle `
+const stylesGlobalesJS = createGlobalStyle `
     * {
         margin: 0;
         padding: 0;
     }
 `
 
-export default StylesGlobalesTS
+export default stylesGlobalesJS
+
