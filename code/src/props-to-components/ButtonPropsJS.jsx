@@ -2,7 +2,7 @@
 import styled from 'styled-components'
 
 
-const Button = styled.button`
+const Button = styled.button `
     background-color: ${props => props.primary ? 'palevioletred' : 'lightgray' }; 
     border: none;
     border-radius: 10px;
